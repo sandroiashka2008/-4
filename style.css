@@ -1,0 +1,472 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text1 {
+    color: #222731;
+font-family: "Space Mono";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#username {
+  background-color: #F6F8FF;
+}
+
+.bothDiv {
+    display: flex;
+    gap: 524px;
+}
+.moon {
+    display: flex;
+    gap: 10px;
+}
+
+.dark {
+    color: #697C9A;
+text-align: right;
+font-family: "Space Mono";
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.5px;
+}
+
+.moon2 {
+   width: 20px;
+height: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 350px;
+    
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    color: #333;
+}
+
+
+button{
+    margin-left: 8%;
+}
+
+.search-box input::placeholder {
+    color: #c4c4c4;
+}
+
+.search-box button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+.last-box {
+    width: 730px;
+height: 419px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FEFEFE;
+box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
+padding: 40px;
+}
+.twoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#myform {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.octocat {
+    width: 117px;
+height: 117px;
+flex-shrink: 0;
+border-radius: 70px;
+}
+.last-box {
+    display: flex;
+    gap: 30px;
+}
+.text3 {
+    color: #2B3442;
+font-family: "Space Mono";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.twoText {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.text4 {
+    color: #0079FF;
+font-family: "Space Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text5 {
+    color: #697C9A;
+text-align: right;
+font-family: "Space Mono";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.divs {
+    display: flex;
+    gap: 136px;
+}
+
+
+.lorem {
+    color: #4B6A9B;
+font-family: "Space Mono";
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; 
+margin-left: -9%;
+width: 90%;
+}
+.fourdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    width: 480px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #F6F8FF;
+padding: 32px;
+display: flex;
+align-items: center;
+gap: 99px;
+}
+
+
+
+
+
+.h21, .h22, .h23 {
+    color: #4B6A9B;
+font-family: "Space Mono";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.h41, .h42, .h43 {
+    color: #2B3442;
+font-family: "Space Mono";
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.lastdivs {
+    display: flex;
+    gap: 120px;
+}
+
+.texts {
+    color: #4B6A9B;
+font-family: "Space Mono";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.last-twodiv, .last-twodiv1 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.icons {
+    display: flex;
+    gap: 19px;
+    margin-top: -5%;
+height: 23px;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+body.dark-mode {
+    background-color: #141D2F;
+    color: #FFFFFF;
+}
+
+body.dark-mode .last-box {
+    background-color: #1E2A47;
+}
+body.dark-mode .text5 {
+    color: #ffffff;
+}
+
+body.dark-mode #username {
+    background-color: #1E2A47;
+}
+body.dark-mode .text6 {
+    color: #ffffff;
+}
+body.dark-mode .text4 {
+    color: #0079FF;
+}
+body.dark-mode .box {
+    background-color: #141D2F; 
+    color: white; 
+}
+body.dark-mode .text1 {
+    color: white; 
+}
+body.dark-mode #input {
+    background-color: white;
+}
+
+
+body.dark-mode .texts, body.dark-mode .text3,  body.dark-mode .h41 {
+    color: #FFFFFF;
+}
+
+
+
+body.dark-mode button {
+    background-color: #0079FF;
+}
+
+body.dark-mode .h21 {
+    color: white;
+}
+body.dark-mode .h22 {
+    color: white;
+}
+body.dark-mode .h23 {
+    color: white;
+}
+body.dark-mode input {
+    background-color: #1E2A47; 
+    color: #FFFFFF; 
+     
+}
+
+body.dark-mode .search-box {
+    background-color: #1E2A47;
+}
+@media (max-width: 768px) {
+    body{
+        display: flex;
+        width: 768px;
+align-items: center;
+justify-content: center;
+    }
+
+
+.text6{
+width: 90%;
+margin-left: -7%;
+
+
+
+}
+
+
+
+
+button{
+    margin-left: 14%;
+}
+
+
+}
+    .bothDiv {
+        display: flex;
+        gap: 367px;
+    }
+
+    .search-box {
+        display: flex;
+        gap: 147px;
+    }
+
+    .last-box {
+        width: 573px;
+        height: 481px;
+        flex-shrink: 0;
+        padding: 32px;
+        position: relative;
+    }
+
+    .divs {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .box {
+        width: 493px;
+        height: 85px;
+        flex-shrink: 0;
+        display: flex;
+        gap: 125px;
+        position: relative;
+        right: 130px;
+        top: 0px;
+    }
+    
+    .lastdivs {
+        position: relative;
+        right: 130px;
+    }
+
+    .thirdDiv {
+        position: relative;
+        right: 325px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100vh; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    #myform {
+        width: 100%;
+        max-width: 375px; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px; 
+    }
+
+      
+    .bothDiv {
+        display: flex;
+        align-items: center;
+        gap: 123px;
+    }
+
+    .search-box {
+        display: flex;
+        gap: 2px;
+    }
+
+    .last-box {
+        width: 327px;
+height: 517px;
+padding: 22px;
+position: relative;
+    }
+
+    .box {
+        width: 279px;
+height: 85px;
+gap: 20px;
+position: relative;
+        right: 140px;
+        top: 30px;
+    }
+   
+    .lastdivs {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        position: relative;
+        top: 30px;
+    }
+
+    .text6 {
+        font-size: 13px;
+        position: relative;
+        right: 120px;
+        top: 50px;
+    }
+
+    .text3 {
+       
+font-family: "Space Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .text5 {
+        font-size: 13px;
+        position: relative;
+        right: -170px;
+        top: 10px;
+    }
+
+  }
